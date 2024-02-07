@@ -1,0 +1,166 @@
+.why__choose__title h1 {
+  color: var(--secondary-color);
+  font-size: 50px;
+}
+
+#why__choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.why__choose__top__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.why__choose__top__card {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.about__cards {
+  width: 50%;
+  gap: 20px;
+}
+
+.card-1-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__right {
+  width: 45%;
+}
+
+.about__left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 45%;
+}
+
+.learn__btn {
+  color: var(--third-color);
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+  border-radius: 27px;
+  width: 160px;
+  height: 54px;
+}
+
+.about__middle,
+.about__bottom {
+  gap: 100px;
+}
+
+.about__middle__left,
+.about__middle__left {
+  width: 45%;
+}
+
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+  gap: 30px;
+}
+
+#testimonials h1 {
+  font-size: 50px;
+  color: var(--secondary-color);
+}
+
+.testimonials__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.testimonial__card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+#clients__opinion {
+  background-color: #f1f1f1;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.clients__card-1 {
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.clients__card__top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.clients__card-1 {
+  background-color: var(--third-color);
+  width: 40%;
+}
+
+.arrows {
+  padding: 50px;
+}
+
+.subscribe__input {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#email__input {
+  padding: 10px 20px;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--third-color);
+  color: var(--text-color);
+  border-radius: 30px;
+  width: 100%;
+  height: 54px;
+}
+.subscribe h1 {
+  color: var(--secondary-color);
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}

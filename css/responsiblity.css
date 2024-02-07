@@ -1,0 +1,88 @@
+@media(min-width:1440px){
+    .container{
+        width: 1240px;
+    }
+}
+
+@media(max-width:1200px){
+    .hero{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .hero__left,.hero__right{
+        width: 80%;
+    }
+    .about__top,.about__middle,.about__bottom{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .about__left,.about__right,.about__middle__left,.about__middle__right{
+        width: 80%;
+    }
+}
+
+@media(max-width:920px){
+    img{
+        width: 100%;
+    }
+    h1,span{
+        font-size: 40px !important;
+    }
+    p{
+        font-size: 14px;
+    }
+    .hero__right{
+        display: none;
+    }
+    .hero{
+        background: url(../images/hero-img.svg) no-repeat ;
+    }
+    .testimonials__cards{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .testimonial__card{
+        width: 45%;
+        padding: 0px auto;
+    }
+    .footer__top,.why__choose__statistics{
+        display: none;
+    }
+    .why__choose__top__cards{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .why__choose__top__card{
+        width: 40%;
+        padding: 0px auto;
+    }
+}
+
+@media(max-width:680px){
+    h1,span{
+        font-size: 30px !important;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .clients__card{
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 0px;
+    }
+    .clients__card-1{
+        width: 80%;
+        padding: 0px auto;
+    }
+}

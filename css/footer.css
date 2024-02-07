@@ -1,0 +1,29 @@
+.footer__logo h1{
+    color: var(--secondary-color);
+}
+
+footer{
+    padding: 50px 0px;
+    background-color: #f1f1f1;
+}
+
+.footer__top{
+    padding: 20px 0px;
+}
+
+.footer__top ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    color: var(--third-color);
+    background-color: var(--primary-color);
+    height: 50px;
+}
